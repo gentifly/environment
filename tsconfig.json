@@ -7,7 +7,7 @@
     "outDir": "dist",
 
     "paths": {
-      "@gentifly/<repository>/*": [ "*" ]
+      "@gentifly/environment/*": [ "*" ]
     },
 
     "strict": true,
@@ -22,5 +22,6 @@
   "exclude": [
     "node_modules",
     "dist"
-  ]
+  ],
+  "files": [ "./node_modules/@gentifly/exceptions/@types/index.d.ts" ]
 }
