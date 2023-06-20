@@ -1,0 +1,35 @@
+{
+  "name": "@gentifly/<repository>",
+  "version": "0.0.1-ALPHA",
+  "description": "<something> used by Gentifly.",
+  "license": "MIT",
+  "type": "commonjs",
+  "private": false,
+  "author": {
+    "name": "Vinícius Gutierrez da Silva Rocha",
+    "email": "srgutyerrez@gmail.com",
+    "url": "https://github.com/Gutyerrez"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gentifly/<repository>.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public",
+    "tag": "latest"
+  },
+  "engines": {
+    "node": "v20.x.x"
+  },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@gentifly/eslint-config": "^0.0.2-ALPHA",
+    "typescript": "^5.1.3"
+  },
+  "peerDependencies": {},
+  "eslintConfig": {
+    "extends": "@gentifly/eslint-config"
+  }
+}
