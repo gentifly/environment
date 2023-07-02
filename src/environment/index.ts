@@ -1,6 +1,6 @@
 import { readFileSync, existsSync } from 'fs';
 
-import { EnvironmentNotFoundException } from '@gentifly/environment/exceptions/EnvironmentNotFoundException';
+import { EnvironmentNotFoundException } from '@gentifly/environment/exceptions';
 
 export class Environment {
   private static ENVIRONMENT_FILE = `${process.cwd()}/.env`;

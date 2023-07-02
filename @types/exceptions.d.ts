@@ -1,9 +1,5 @@
-declare module '@gentifly/exceptions' {
+declare module '@gentifly/environment' {
   import { Exception } from '@gentifly/exceptions';
-
-  export class EnvironmentFileNotFoundException extends Exception {
-    constructor();
-  }
 
   export class EnvironmentNotFoundException extends Exception {
     constructor(name: keyof NodeJS.ProcessEnv);
